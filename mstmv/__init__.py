@@ -1,10 +1,14 @@
-#--encoding-- = utf-8
+# -*- coding: utf-8 -*-
 
 """
-A pipeline for processing MiniSiTian data, codename MonteVista
+MonteVista: A pipeline for processing MiniSiTian data
+packagename: mstmv
 By Dr Jie Zheng
 v0 20241212
+
 """
 
 
-import numpy as np
+from .combine_bias import combine_bias
+from .combine_flat import combine_flat
+from .correct_img import correct_img
